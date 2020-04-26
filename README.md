@@ -4,6 +4,8 @@ Image2map is an utility that allows you to generate Leaflet based interactives m
 
 This utility automates the process to generate an interactive map from a 2D image. It raster image tiles for use with Leaflet in addition to build minimum files and required libraries to get everything you need to deploy your web interactive map.
 
+[Live demo](https://luisdavidfer.github.io/image2map/demo/)
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -29,7 +31,7 @@ $ python3 image2map.py -mp <map_name> <image_path> <image_width> <image_height>
 
 ```
 
-For example:
+For example [demo](https://luisdavidfer.github.io/image2map/demo/):
 ```
 $ python3 image2map.py -mp "Middle Earth" ./middle-earth.jpg 7970 5500
 ```
