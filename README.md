@@ -28,7 +28,6 @@ $ python3 image2map.py <map_name> <image_path> <image_width> <image_height>
 Multicore process to raster image tiles is available running:
 ```
 $ python3 image2map.py -mp <map_name> <image_path> <image_width> <image_height>
-
 ```
 
 For example [demo](https://luisdavidfer.github.io/image2map/demo/):
